@@ -43,22 +43,6 @@ function mainController($scope, $http) {
                 console.log('Error:' + data);
             });
     };
-
-
-    //************************************************************
-    //************************************************************
-
-    function nowDate() {
-        var fullDate = Date();
-        var day = fullDate.getDate();
-        var month = fullDate.getMonth() + 1;
-        var year = fullDate.getFullYear();
-
-        var stringDate = day + "/" + month + "/" + year;
-
-        return stringDate;
-    }
-
 }
 
 
